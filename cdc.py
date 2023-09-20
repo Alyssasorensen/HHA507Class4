@@ -1,3 +1,7 @@
+!pip install ipywidgets
+
+!pip install ipywidgets jupyter_contrib_nbextensions
+
 # Import necessary libraries
 import pandas as pd
 import matplotlib.pyplot as plt
