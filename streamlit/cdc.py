@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Load the dataset
 @st.cache_data  # This decorator will ensure data is loaded only once and stored in cache
 def load_data():
-    url = "https://raw.githubusercontent.com/hantswilliams/HHA_507_2023/main/WK4/examples/jupyter-viola/cdc_places_ny.csv"
+    url = "https://raw.githubusercontent.com/Alyssasorensen/HHA507Class4/main/datasets/cdc_places_ny.csv"
     return pd.read_csv(url)
 
 df = load_data()
